@@ -30,7 +30,5 @@ public class AddToCartTest extends Driver {
 
         Assert.assertEquals(price ,totalPrice);
 
-        driver.findElement(By.xpath("//a[text()='Logout']")).click();
-
     }
 }
